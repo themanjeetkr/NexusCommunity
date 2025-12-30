@@ -1,0 +1,48 @@
+.head-image{
+
+    /* background-image: url('../../assets/sunflower-field.jpg'); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.head-image h1 span{
+    text-align: left;
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px solid black;
+}
+.head-text{
+    font-size: 48px;
+    color: #f9f9f9;
+    text-shadow: 1px 1px black;
+}
+
+.quote-author{
+    font-size: 18px;
+    text-align: left;
+}
+
+@media (max-width:728px) {
+    .head-image{
+        padding: 0px 20px;
+        height: 60vh !important;
+        width: 90% !important;
+    }
+    .head-text{
+        font-size: 28px;
+        
+    }
+    h1{
+        font-size: 28px;
+    }
+    
+}

@@ -1,4 +1,36 @@
 /* Navbar container */
+
+.logo-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: #1f2937;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .logo-link {
+    font-size: 1rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .logo-link {
+    font-size: 1.25rem;
+  }
+}
+
+/* Laptop & Desktop */
+@media (min-width: 1025px) {
+  .logo-link {
+    font-size: 1.75rem;
+  }
+}
+
+.logo-link:hover {
+  color: #2563eb;
+}
+
 .navbar {
   width: 97%;
   display: flex;

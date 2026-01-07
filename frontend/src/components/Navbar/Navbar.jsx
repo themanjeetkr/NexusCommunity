@@ -42,10 +42,11 @@ const Navbar = ({ setShowLogin }) => {
     <div className='navbar'>
       <div className="nav-items">
 
-      <Link to='/'> 
-       {/*  <img src={assets.logo} alt="" className="logo" /> */}
-         Nexus Community
-      </Link>
+      <Link to="/" className="logo-link">
+  {/* <img src={assets.logo} alt="" className="logo" /> */}
+  Nexus Community
+</Link>
+
 
       {/* Hamburger Menu Button */}
       <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>

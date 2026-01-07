@@ -43,7 +43,8 @@ const Navbar = ({ setShowLogin }) => {
       <div className="nav-items">
 
       <Link to='/'> 
-        <img src={assets.logo} alt="" className="logo" />
+       {/*  <img src={assets.logo} alt="" className="logo" /> */}
+         Nexus Community
       </Link>
 
       {/* Hamburger Menu Button */}

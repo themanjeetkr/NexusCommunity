@@ -28,7 +28,7 @@ function ContactPage() {
 
             <header className="contact-header">
             <div className="contact-text">
-                <h1>NarratoZone</h1>
+                <h1>Nexus Community</h1>
                 <p>Let's Start a Conversation</p>
             </div>
             </header>
@@ -39,7 +39,7 @@ function ContactPage() {
                     <div className="info-box">
                         <div className="info-item">
                             <h3>Email</h3>
-                            <p>contact@narratozone.com</p>
+                            <p>contact@nexuscommunity.com</p>
                         </div>
                         <div className="info-item">
                             <h3>Location</h3>
